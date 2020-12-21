@@ -1,0 +1,5 @@
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\XML\bin\Debug\XML.dll
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\XML\bin\Debug\XML.pdb
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\XML\obj\Debug\XML.dll
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\XML\obj\Debug\XML.pdb
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\XML\obj\Debug\XML.csproj.CoreCompileInputs.cache

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PhieuKhamWCF" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Entity" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPhieuKhamWCF_getPhieuKham_theoNgay_InputMessage">
+    <wsdl:part name="parameters" element="tns:getPhieuKham_theoNgay" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_getPhieuKham_theoNgay_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getPhieuKham_theoNgayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_getPhieuhen_InputMessage">
+    <wsdl:part name="parameters" element="tns:getPhieuhen" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_getPhieuhen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getPhieuhenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_getPhieuhen_TrongNgay_InputMessage">
+    <wsdl:part name="parameters" element="tns:getPhieuhen_TrongNgay" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_getPhieuhen_TrongNgay_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getPhieuhen_TrongNgayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_getPhieuhen_TimKiem_InputMessage">
+    <wsdl:part name="parameters" element="tns:getPhieuhen_TimKiem" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_getPhieuhen_TimKiem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getPhieuhen_TimKiemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_AddPhieuKham_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddPhieuKham" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_AddPhieuKham_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddPhieuKhamResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_UpdatePhieuKham_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePhieuKham" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_UpdatePhieuKham_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePhieuKhamResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_UpdateTinhTrang_PhieuKham_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTinhTrang_PhieuKham" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_UpdateTinhTrang_PhieuKham_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTinhTrang_PhieuKhamResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_getPhieuKham_byID_InputMessage">
+    <wsdl:part name="parameters" element="tns:getPhieuKham_byID" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_getPhieuKham_byID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getPhieuKham_byIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_getIdLast_InputMessage">
+    <wsdl:part name="parameters" element="tns:getIdLast" />
+  </wsdl:message>
+  <wsdl:message name="IPhieuKhamWCF_getIdLast_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getIdLastResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPhieuKhamWCF">
+    <wsdl:operation name="getPhieuKham_theoNgay">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPhieuKhamWCF/getPhieuKham_theoNgay" message="tns:IPhieuKhamWCF_getPhieuKham_theoNgay_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPhieuKhamWCF/getPhieuKham_theoNgayResponse" message="tns:IPhieuKhamWCF_getPhieuKham_theoNgay_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getPhieuhen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPhieuKhamWCF/getPhieuhen" message="tns:IPhieuKhamWCF_getPhieuhen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPhieuKhamWCF/getPhieuhenResponse" message="tns:IPhieuKhamWCF_getPhieuhen_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getPhieuhen_TrongNgay">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPhieuKhamWCF/getPhieuhen_TrongNgay" message="tns:IPhieuKhamWCF_getPhieuhen_TrongNgay_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPhieuKhamWCF/getPhieuhen_TrongNgayResponse" message="tns:IPhieuKhamWCF_getPhieuhen_TrongNgay_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getPhieuhen_TimKiem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPhieuKhamWCF/getPhieuhen_TimKiem" message="tns:IPhieuKhamWCF_getPhieuhen_TimKiem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPhieuKhamWCF/getPhieuhen_TimKiemResponse" message="tns:IPhieuKhamWCF_getPhieuhen_TimKiem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPhieuKham">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPhieuKhamWCF/AddPhieuKham" message="tns:IPhieuKhamWCF_AddPhieuKham_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPhieuKhamWCF/AddPhieuKhamResponse" message="tns:IPhieuKhamWCF_AddPhieuKham_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePhieuKham">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPhieuKhamWCF/UpdatePhieuKham" message="tns:IPhieuKhamWCF_UpdatePhieuKham_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPhieuKhamWCF/UpdatePhieuKhamResponse" message="tns:IPhieuKhamWCF_UpdatePhieuKham_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTinhTrang_PhieuKham">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPhieuKhamWCF/UpdateTinhTrang_PhieuKham" message="tns:IPhieuKhamWCF_UpdateTinhTrang_PhieuKham_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPhieuKhamWCF/UpdateTinhTrang_PhieuKhamResponse" message="tns:IPhieuKhamWCF_UpdateTinhTrang_PhieuKham_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getPhieuKham_byID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPhieuKhamWCF/getPhieuKham_byID" message="tns:IPhieuKhamWCF_getPhieuKham_byID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPhieuKhamWCF/getPhieuKham_byIDResponse" message="tns:IPhieuKhamWCF_getPhieuKham_byID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getIdLast">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPhieuKhamWCF/getIdLast" message="tns:IPhieuKhamWCF_getIdLast_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPhieuKhamWCF/getIdLastResponse" message="tns:IPhieuKhamWCF_getIdLast_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IPhieuKhamWCF" type="tns:IPhieuKhamWCF">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getPhieuKham_theoNgay">
+      <soap:operation soapAction="http://tempuri.org/IPhieuKhamWCF/getPhieuKham_theoNgay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPhieuhen">
+      <soap:operation soapAction="http://tempuri.org/IPhieuKhamWCF/getPhieuhen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPhieuhen_TrongNgay">
+      <soap:operation soapAction="http://tempuri.org/IPhieuKhamWCF/getPhieuhen_TrongNgay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPhieuhen_TimKiem">
+      <soap:operation soapAction="http://tempuri.org/IPhieuKhamWCF/getPhieuhen_TimKiem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPhieuKham">
+      <soap:operation soapAction="http://tempuri.org/IPhieuKhamWCF/AddPhieuKham" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePhieuKham">
+      <soap:operation soapAction="http://tempuri.org/IPhieuKhamWCF/UpdatePhieuKham" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTinhTrang_PhieuKham">
+      <soap:operation soapAction="http://tempuri.org/IPhieuKhamWCF/UpdateTinhTrang_PhieuKham" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPhieuKham_byID">
+      <soap:operation soapAction="http://tempuri.org/IPhieuKhamWCF/getPhieuKham_byID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getIdLast">
+      <soap:operation soapAction="http://tempuri.org/IPhieuKhamWCF/getIdLast" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PhieuKhamWCF">
+    <wsdl:port name="BasicHttpBinding_IPhieuKhamWCF" binding="tns:BasicHttpBinding_IPhieuKhamWCF">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf.Interface/PhieuKhamWCF/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

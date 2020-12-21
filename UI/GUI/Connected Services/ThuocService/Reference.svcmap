@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a60b29d4-518e-4544-b522-13f51d20d625" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf/ThuocWCF/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="ae99b76c-38f0-4a26-8e32-196f33e3f626" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf/ThuocWCF/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="00900c19-6dd0-4f70-8d69-337c673d04ea" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf/ThuocWCF/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="eefb3e9e-566c-486b-ad66-49be897ca3f4" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf/ThuocWCF/mex" />
+    <MetadataFile FileName="Entity.xsd" MetadataType="Schema" ID="78abbdec-96b0-40e3-bf20-647f4f0a4197" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf/ThuocWCF/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

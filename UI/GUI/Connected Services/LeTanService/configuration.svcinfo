@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;BasicHttpBinding_ILeTanWCF&quot; /&gt;" bindingType="basicHttpBinding" name="BasicHttpBinding_ILeTanWCF" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf/LeTanWCF/&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;BasicHttpBinding_ILeTanWCF&quot; contract=&quot;LeTanService.ILeTanWCF&quot; name=&quot;BasicHttpBinding_ILeTanWCF&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf/LeTanWCF/&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;BasicHttpBinding_ILeTanWCF&quot; contract=&quot;LeTanService.ILeTanWCF&quot; name=&quot;BasicHttpBinding_ILeTanWCF&quot; /&gt;" contractName="LeTanService.ILeTanWCF" name="BasicHttpBinding_ILeTanWCF" />
+  </endpoints>
+</configurationSnapshot>

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="NhaSiWCF" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Entity" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="INhaSiWCF_AddNhaSi_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddNhaSi" />
+  </wsdl:message>
+  <wsdl:message name="INhaSiWCF_AddNhaSi_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddNhaSiResponse" />
+  </wsdl:message>
+  <wsdl:message name="INhaSiWCF_UpdateNhaSi_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateNhaSi" />
+  </wsdl:message>
+  <wsdl:message name="INhaSiWCF_UpdateNhaSi_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateNhaSiResponse" />
+  </wsdl:message>
+  <wsdl:message name="INhaSiWCF_RemoveNhaSi_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveNhaSi" />
+  </wsdl:message>
+  <wsdl:message name="INhaSiWCF_RemoveNhaSi_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveNhaSiResponse" />
+  </wsdl:message>
+  <wsdl:message name="INhaSiWCF_getAllNhaSi_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllNhaSi" />
+  </wsdl:message>
+  <wsdl:message name="INhaSiWCF_getAllNhaSi_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllNhaSiResponse" />
+  </wsdl:message>
+  <wsdl:message name="INhaSiWCF_getNhaSiByUseName_InputMessage">
+    <wsdl:part name="parameters" element="tns:getNhaSiByUseName" />
+  </wsdl:message>
+  <wsdl:message name="INhaSiWCF_getNhaSiByUseName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getNhaSiByUseNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="INhaSiWCF_getNhabyID_InputMessage">
+    <wsdl:part name="parameters" element="tns:getNhabyID" />
+  </wsdl:message>
+  <wsdl:message name="INhaSiWCF_getNhabyID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getNhabyIDResponse" />
+  </wsdl:message>
+  <wsdl:portType name="INhaSiWCF">
+    <wsdl:operation name="AddNhaSi">
+      <wsdl:input wsaw:Action="http://tempuri.org/INhaSiWCF/AddNhaSi" message="tns:INhaSiWCF_AddNhaSi_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INhaSiWCF/AddNhaSiResponse" message="tns:INhaSiWCF_AddNhaSi_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNhaSi">
+      <wsdl:input wsaw:Action="http://tempuri.org/INhaSiWCF/UpdateNhaSi" message="tns:INhaSiWCF_UpdateNhaSi_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INhaSiWCF/UpdateNhaSiResponse" message="tns:INhaSiWCF_UpdateNhaSi_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveNhaSi">
+      <wsdl:input wsaw:Action="http://tempuri.org/INhaSiWCF/RemoveNhaSi" message="tns:INhaSiWCF_RemoveNhaSi_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INhaSiWCF/RemoveNhaSiResponse" message="tns:INhaSiWCF_RemoveNhaSi_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllNhaSi">
+      <wsdl:input wsaw:Action="http://tempuri.org/INhaSiWCF/getAllNhaSi" message="tns:INhaSiWCF_getAllNhaSi_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INhaSiWCF/getAllNhaSiResponse" message="tns:INhaSiWCF_getAllNhaSi_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getNhaSiByUseName">
+      <wsdl:input wsaw:Action="http://tempuri.org/INhaSiWCF/getNhaSiByUseName" message="tns:INhaSiWCF_getNhaSiByUseName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INhaSiWCF/getNhaSiByUseNameResponse" message="tns:INhaSiWCF_getNhaSiByUseName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getNhabyID">
+      <wsdl:input wsaw:Action="http://tempuri.org/INhaSiWCF/getNhabyID" message="tns:INhaSiWCF_getNhabyID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INhaSiWCF/getNhabyIDResponse" message="tns:INhaSiWCF_getNhabyID_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_INhaSiWCF" type="tns:INhaSiWCF">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddNhaSi">
+      <soap:operation soapAction="http://tempuri.org/INhaSiWCF/AddNhaSi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNhaSi">
+      <soap:operation soapAction="http://tempuri.org/INhaSiWCF/UpdateNhaSi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveNhaSi">
+      <soap:operation soapAction="http://tempuri.org/INhaSiWCF/RemoveNhaSi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllNhaSi">
+      <soap:operation soapAction="http://tempuri.org/INhaSiWCF/getAllNhaSi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNhaSiByUseName">
+      <soap:operation soapAction="http://tempuri.org/INhaSiWCF/getNhaSiByUseName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNhabyID">
+      <soap:operation soapAction="http://tempuri.org/INhaSiWCF/getNhabyID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NhaSiWCF">
+    <wsdl:port name="BasicHttpBinding_INhaSiWCF" binding="tns:BasicHttpBinding_INhaSiWCF">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf/NhaSiWCF/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

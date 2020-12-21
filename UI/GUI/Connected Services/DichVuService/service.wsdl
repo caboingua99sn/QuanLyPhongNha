@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DichVuWCF" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Entity" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDichVuWCF_AddDichVu_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddDichVu" />
+  </wsdl:message>
+  <wsdl:message name="IDichVuWCF_AddDichVu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddDichVuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDichVuWCF_UpdateDichVu_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDichVu" />
+  </wsdl:message>
+  <wsdl:message name="IDichVuWCF_UpdateDichVu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDichVuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDichVuWCF_RemoveDichVu_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveDichVu" />
+  </wsdl:message>
+  <wsdl:message name="IDichVuWCF_RemoveDichVu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveDichVuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDichVuWCF_GetDichVu_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDichVu" />
+  </wsdl:message>
+  <wsdl:message name="IDichVuWCF_GetDichVu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDichVuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDichVuWCF_getDVbyID_InputMessage">
+    <wsdl:part name="parameters" element="tns:getDVbyID" />
+  </wsdl:message>
+  <wsdl:message name="IDichVuWCF_getDVbyID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getDVbyIDResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IDichVuWCF">
+    <wsdl:operation name="AddDichVu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDichVuWCF/AddDichVu" message="tns:IDichVuWCF_AddDichVu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDichVuWCF/AddDichVuResponse" message="tns:IDichVuWCF_AddDichVu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDichVu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDichVuWCF/UpdateDichVu" message="tns:IDichVuWCF_UpdateDichVu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDichVuWCF/UpdateDichVuResponse" message="tns:IDichVuWCF_UpdateDichVu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveDichVu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDichVuWCF/RemoveDichVu" message="tns:IDichVuWCF_RemoveDichVu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDichVuWCF/RemoveDichVuResponse" message="tns:IDichVuWCF_RemoveDichVu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDichVu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDichVuWCF/GetDichVu" message="tns:IDichVuWCF_GetDichVu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDichVuWCF/GetDichVuResponse" message="tns:IDichVuWCF_GetDichVu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getDVbyID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDichVuWCF/getDVbyID" message="tns:IDichVuWCF_getDVbyID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDichVuWCF/getDVbyIDResponse" message="tns:IDichVuWCF_getDVbyID_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IDichVuWCF" type="tns:IDichVuWCF">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddDichVu">
+      <soap:operation soapAction="http://tempuri.org/IDichVuWCF/AddDichVu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDichVu">
+      <soap:operation soapAction="http://tempuri.org/IDichVuWCF/UpdateDichVu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveDichVu">
+      <soap:operation soapAction="http://tempuri.org/IDichVuWCF/RemoveDichVu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDichVu">
+      <soap:operation soapAction="http://tempuri.org/IDichVuWCF/GetDichVu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDVbyID">
+      <soap:operation soapAction="http://tempuri.org/IDichVuWCF/getDVbyID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DichVuWCF">
+    <wsdl:port name="BasicHttpBinding_IDichVuWCF" binding="tns:BasicHttpBinding_IDichVuWCF">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf/DichVuWCF/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

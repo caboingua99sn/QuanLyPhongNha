@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DonThuocWCF" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Entity" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDonThuocWCF_GetDonThuocs_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDonThuocs" />
+  </wsdl:message>
+  <wsdl:message name="IDonThuocWCF_GetDonThuocs_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDonThuocsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDonThuocWCF_AddDonThuoc_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddDonThuoc" />
+  </wsdl:message>
+  <wsdl:message name="IDonThuocWCF_AddDonThuoc_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddDonThuocResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDonThuocWCF_UpdateDonThuoc_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDonThuoc" />
+  </wsdl:message>
+  <wsdl:message name="IDonThuocWCF_UpdateDonThuoc_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDonThuocResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDonThuocWCF_getIdLast_InputMessage">
+    <wsdl:part name="parameters" element="tns:getIdLast" />
+  </wsdl:message>
+  <wsdl:message name="IDonThuocWCF_getIdLast_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getIdLastResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IDonThuocWCF">
+    <wsdl:operation name="GetDonThuocs">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDonThuocWCF/GetDonThuocs" message="tns:IDonThuocWCF_GetDonThuocs_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDonThuocWCF/GetDonThuocsResponse" message="tns:IDonThuocWCF_GetDonThuocs_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddDonThuoc">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDonThuocWCF/AddDonThuoc" message="tns:IDonThuocWCF_AddDonThuoc_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDonThuocWCF/AddDonThuocResponse" message="tns:IDonThuocWCF_AddDonThuoc_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDonThuoc">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDonThuocWCF/UpdateDonThuoc" message="tns:IDonThuocWCF_UpdateDonThuoc_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDonThuocWCF/UpdateDonThuocResponse" message="tns:IDonThuocWCF_UpdateDonThuoc_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getIdLast">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDonThuocWCF/getIdLast" message="tns:IDonThuocWCF_getIdLast_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDonThuocWCF/getIdLastResponse" message="tns:IDonThuocWCF_getIdLast_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IDonThuocWCF" type="tns:IDonThuocWCF">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDonThuocs">
+      <soap:operation soapAction="http://tempuri.org/IDonThuocWCF/GetDonThuocs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddDonThuoc">
+      <soap:operation soapAction="http://tempuri.org/IDonThuocWCF/AddDonThuoc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDonThuoc">
+      <soap:operation soapAction="http://tempuri.org/IDonThuocWCF/UpdateDonThuoc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getIdLast">
+      <soap:operation soapAction="http://tempuri.org/IDonThuocWCF/getIdLast" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DonThuocWCF">
+    <wsdl:port name="BasicHttpBinding_IDonThuocWCF" binding="tns:BasicHttpBinding_IDonThuocWCF">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf/DonThuocWCF/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

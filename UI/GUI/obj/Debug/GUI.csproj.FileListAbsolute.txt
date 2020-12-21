@@ -1,0 +1,114 @@
+C:\Users\84935\Desktop\C#\New folder\BTLon\BaiTapLon_KTTKPM\GUI\bin\Debug\GUI.exe.config
+C:\Users\84935\Desktop\C#\New folder\BTLon\BaiTapLon_KTTKPM\GUI\bin\Debug\GUI.exe
+C:\Users\84935\Desktop\C#\New folder\BTLon\BaiTapLon_KTTKPM\GUI\bin\Debug\GUI.pdb
+C:\Users\84935\Desktop\C#\New folder\BTLon\BaiTapLon_KTTKPM\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\84935\Desktop\C#\New folder\BTLon\BaiTapLon_KTTKPM\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\84935\Desktop\C#\New folder\BTLon\BaiTapLon_KTTKPM\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\84935\Desktop\C#\New folder\BTLon\BaiTapLon_KTTKPM\GUI\obj\Debug\GUI.exe
+C:\Users\84935\Desktop\C#\New folder\BTLon\BaiTapLon_KTTKPM\GUI\obj\Debug\GUI.pdb
+C:\Users\84935\Desktop\C#\New folder\BTLon\BaiTapLon_KTTKPM\GUI\obj\Debug\GUI.FormDichVu.resources
+C:\Users\84935\Desktop\C#\New folder\BTLon\BaiTapLon_KTTKPM\GUI\obj\Debug\GUI.FormKhamBenh.resources
+C:\Users\84935\Desktop\C#\New folder\BTLon\BaiTapLon_KTTKPM\GUI\obj\Debug\GUI.FormDonThuoc.resources
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\bin\Debug\GUI.exe.config
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\obj\Debug\GUI.exe
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\obj\Debug\GUI.pdb
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\bin\Debug\GUI.exe
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\bin\Debug\GUI.pdb
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\obj\Debug\GUI.frmHome.resources
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\obj\Debug\GUI.frmKhamBenh.resources
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\bin\Debug\Jacksiro.MdiTab.dll
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\obj\Debug\GUI.frmDonThuoc.resources
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\obj\Debug\GUI.frmLichHen.resources
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\obj\Debug\GUI.frmMainLeTan.resources
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\obj\Debug\GUI.frmNhanKham.resources
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\obj\Debug\GUI.frmQLBenhNhan.resources
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\obj\Debug\GUI.frmDichVu.resources
+C:\Users\quydo\Desktop\KienTruc\UI\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\84935\Desktop\C#\New folder\BTLon\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\GUI.exe.config
+C:\Users\84935\Desktop\C#\New folder\BTLon\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.exe
+C:\Users\84935\Desktop\C#\New folder\BTLon\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.pdb
+C:\Users\84935\Desktop\C#\New folder\BTLon\New folder\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\GUI.exe.config
+C:\Users\84935\Desktop\C#\New folder\BTLon\New folder\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.exe
+C:\Users\84935\Desktop\C#\New folder\BTLon\New folder\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.pdb
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\bin\Debug\GUI.exe.config
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\obj\Debug\GUI.exe
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\obj\Debug\GUI.pdb
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\bin\Debug\GUI.exe
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\bin\Debug\GUI.pdb
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\bin\Debug\EntityFramework.dll
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\bin\Debug\Jacksiro.MdiTab.dll
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\bin\Debug\EntityFramework.xml
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\obj\Debug\GUI.frmDichVu.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\obj\Debug\GUI.frmDonThuoc.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\obj\Debug\GUI.frmLichHen.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\obj\Debug\GUI.frmNhanKham.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\obj\Debug\GUI.frmQuanLyBenhNhan.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\obj\Debug\GUI.frmKhamBenh.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\obj\Debug\GUI.frmHome.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\obj\Debug\GUI.QuanlyNhasy.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\obj\Debug\GUI.QuanLyNhanVien.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\GUI.exe.config
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.exe
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.pdb
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\GUI.exe
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\GUI.pdb
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\EntityFramework.dll
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\EntityFramework.SqlServer.dll
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\Jacksiro.MdiTab.dll
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\EntityFramework.xml
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\EntityFramework.SqlServer.xml
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.frmDichVu.resources
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.frmDonThuoc.resources
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.frmLichHen.resources
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.frmNhanKham.resources
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.frmQuanLyBenhNhan.resources
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.frmKhamBenh.resources
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.frmHome.resources
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.QuanlyNhasy.resources
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.QuanLyNhanVien.resources
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+D:\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\GUI.exe.config
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\GUI.exe
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\GUI.pdb
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\Apache.NMS.ActiveMQ.dll
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\Apache.NMS.dll
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\EntityFramework.dll
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\Jacksiro.MdiTab.dll
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\EntityFramework.xml
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.frmLogin.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.frmDonThuoc.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.frmLichHen.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.frmNhanKham.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.frmQuanLyKhachHang.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.frmKhamBenh.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.frmHome.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.frmQuanlyNhanVien.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.exe
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.pdb
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\XML.dll
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\XML.pdb
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.CT_PhieuHen.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.ThemKhachHang.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.frmTimKiemKhachHang.resources
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\quydo\Desktop\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\84935\Desktop\C#\KienTruc\BTLon\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4-master\UI\GUI\bin\Debug\GUI.exe.config
+C:\Users\84935\Desktop\C#\KienTruc\BTLon\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4-master\UI\GUI\obj\Debug\GUI.exe
+C:\Users\84935\Desktop\C#\KienTruc\BTLon\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4-master\UI\GUI\obj\Debug\GUI.pdb
+C:\Users\84935\Desktop\C#\New folder\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\bin\Debug\GUI.exe.config
+C:\Users\84935\Desktop\C#\New folder\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.exe
+C:\Users\84935\Desktop\C#\New folder\QuanLyThongTinPhongNha_DHKTPM13B_Nhom4\UI\GUI\obj\Debug\GUI.pdb

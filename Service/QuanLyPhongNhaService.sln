@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{1E835B27-0D7F-44B9-99FF-4E236950C52F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyPhongNha_Wcf", "QuanLyPhongNha_Wcf\QuanLyPhongNha_Wcf.csproj", "{E2467C09-3F36-4055-9630-13896D000217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{8C4B0CAA-15FE-427B-B3E9-1F6282BC56F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E835B27-0D7F-44B9-99FF-4E236950C52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E835B27-0D7F-44B9-99FF-4E236950C52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E835B27-0D7F-44B9-99FF-4E236950C52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E835B27-0D7F-44B9-99FF-4E236950C52F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2467C09-3F36-4055-9630-13896D000217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2467C09-3F36-4055-9630-13896D000217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2467C09-3F36-4055-9630-13896D000217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2467C09-3F36-4055-9630-13896D000217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4B0CAA-15FE-427B-B3E9-1F6282BC56F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4B0CAA-15FE-427B-B3E9-1F6282BC56F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4B0CAA-15FE-427B-B3E9-1F6282BC56F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4B0CAA-15FE-427B-B3E9-1F6282BC56F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6D2E6CB-EDC5-4B39-AC50-681676244FD2}
+	EndGlobalSection
+EndGlobal

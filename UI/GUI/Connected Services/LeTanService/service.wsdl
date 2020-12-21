@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="LeTanWCF" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Entity" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ILeTanWCF_AddLeTan_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddLeTan" />
+  </wsdl:message>
+  <wsdl:message name="ILeTanWCF_AddLeTan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddLeTanResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILeTanWCF_UpdateLeTan_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLeTan" />
+  </wsdl:message>
+  <wsdl:message name="ILeTanWCF_UpdateLeTan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLeTanResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILeTanWCF_RemoveLeTan_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveLeTan" />
+  </wsdl:message>
+  <wsdl:message name="ILeTanWCF_RemoveLeTan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveLeTanResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILeTanWCF_getAllLeTan_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllLeTan" />
+  </wsdl:message>
+  <wsdl:message name="ILeTanWCF_getAllLeTan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllLeTanResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILeTanWCF_getLeTanByUse_InputMessage">
+    <wsdl:part name="parameters" element="tns:getLeTanByUse" />
+  </wsdl:message>
+  <wsdl:message name="ILeTanWCF_getLeTanByUse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getLeTanByUseResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ILeTanWCF">
+    <wsdl:operation name="AddLeTan">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILeTanWCF/AddLeTan" message="tns:ILeTanWCF_AddLeTan_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILeTanWCF/AddLeTanResponse" message="tns:ILeTanWCF_AddLeTan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLeTan">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILeTanWCF/UpdateLeTan" message="tns:ILeTanWCF_UpdateLeTan_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILeTanWCF/UpdateLeTanResponse" message="tns:ILeTanWCF_UpdateLeTan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveLeTan">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILeTanWCF/RemoveLeTan" message="tns:ILeTanWCF_RemoveLeTan_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILeTanWCF/RemoveLeTanResponse" message="tns:ILeTanWCF_RemoveLeTan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllLeTan">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILeTanWCF/getAllLeTan" message="tns:ILeTanWCF_getAllLeTan_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILeTanWCF/getAllLeTanResponse" message="tns:ILeTanWCF_getAllLeTan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getLeTanByUse">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILeTanWCF/getLeTanByUse" message="tns:ILeTanWCF_getLeTanByUse_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILeTanWCF/getLeTanByUseResponse" message="tns:ILeTanWCF_getLeTanByUse_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ILeTanWCF" type="tns:ILeTanWCF">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddLeTan">
+      <soap:operation soapAction="http://tempuri.org/ILeTanWCF/AddLeTan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLeTan">
+      <soap:operation soapAction="http://tempuri.org/ILeTanWCF/UpdateLeTan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveLeTan">
+      <soap:operation soapAction="http://tempuri.org/ILeTanWCF/RemoveLeTan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllLeTan">
+      <soap:operation soapAction="http://tempuri.org/ILeTanWCF/getAllLeTan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLeTanByUse">
+      <soap:operation soapAction="http://tempuri.org/ILeTanWCF/getLeTanByUse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LeTanWCF">
+    <wsdl:port name="BasicHttpBinding_ILeTanWCF" binding="tns:BasicHttpBinding_ILeTanWCF">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf/LeTanWCF/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

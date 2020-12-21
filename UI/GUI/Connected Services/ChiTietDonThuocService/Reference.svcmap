@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3a99ffb2-23d4-489c-a8ed-4a2ed69aac74" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf/ChiTietDonThuocWCF/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="141192d6-bc85-449e-b3b2-7902858b12d4" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf/ChiTietDonThuocWCF/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="5408e225-9039-48da-ae6d-bfd18b03e316" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf/ChiTietDonThuocWCF/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="294b5d9f-b5a1-4023-9c62-faa6f589ad4c" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf/ChiTietDonThuocWCF/mex" />
+    <MetadataFile FileName="Entity.xsd" MetadataType="Schema" ID="5cf1c33a-d49e-47b4-a5b8-53f38bc12afc" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/QuanLyPhongNha_Wcf/ChiTietDonThuocWCF/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
